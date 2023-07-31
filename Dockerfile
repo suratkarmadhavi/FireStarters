@@ -4,7 +4,7 @@
 FROM registry.access.redhat.com/ubi8/nodejs-16:1
 
 # Install git
-RUN apk add --no-cache git
+#RUN apk add --no-cache git
 
 # Set the working directory
 WORKDIR /app
