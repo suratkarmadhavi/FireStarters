@@ -1,5 +1,7 @@
 # Use the official Node.js 18.x image as the base image
-FROM node:18-alpine
+# FROM node:12-alpine
+
+FROM registry.access.redhat.com/ubi8/nodejs-16:1
 
 # Install git
 RUN apk add --no-cache git
